@@ -11,22 +11,24 @@ This package is not for hand comparison and does not resolve identical hands.
   FiveHand fiveHand = new FiveHand([
     new Card(Face.ACE, Suite.SPADE),
     new Card(Face.KING, Suite.SPADE),
-    new Card(Face.QUEEN, Suite.SPADE),
     new Card(Face.JACK, Suite.SPADE),
-    new Card(Face.TEN, Suite.SPADE)
+    new Card(Face.TEN, Suite.SPADE),
+    new Card(Face.QUEEN, Suite.SPADE)
   ]);
     
   Hand hand = fiveHand.evaluate();
+  
+  print(hand); //Hand.ROYAL_FLUSH
 ```
 
 ## Tests
 
-### run tests 
+### Run tests 
 ```
 dart test/five_hand_test.dart
 ```
 
-### run benchmarks
+### Run benchmarks
 ```
 dart benchmark/five_hand_benchmark.dart
 ```

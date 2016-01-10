@@ -1,9 +1,8 @@
 name: poker_hands
 version: 1.0.0
-description: Simple evalutor for poker hands. Currently this supporting only 5 cards
+description: Simple evaluator for poker hands.
 author: Slemgrim <slemgrim@gmail.com>
-
+homepage: https://github.com/Slemgrim/poker_hands
 dev_dependencies:
   test: "^0.12.6+2"
   benchmark_harness: "^1.0.4"
-
