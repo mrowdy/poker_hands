@@ -1,5 +1,7 @@
 ## Poker Hands
 
+[![Build Status](https://travis-ci.org/Slemgrim/poker_hands.svg?branch=master)](https://travis-ci.org/Slemgrim/poker_hands)
+
 Simple evaluator for poker hands. Not the fastest, not the shortest but working.
 Give a set of 5 cards to poker_hands and get the highest ranking poker hand. 
 
@@ -25,7 +27,7 @@ print(hand); //Hand.ROYAL_FLUSH
 
 ### Run tests 
 ```
-dart test/five_hand_test.dart
+pub run test
 ```
 
 ### Run benchmarks
