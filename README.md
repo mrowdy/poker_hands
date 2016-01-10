@@ -7,18 +7,18 @@ This package is not for hand comparison and does not resolve identical hands.
 
 ## Code Example
 
-```dartlang
-  FiveHand fiveHand = new FiveHand([
+```dart
+FiveHand fiveHand = new FiveHand([
     new Card(Face.ACE, Suite.SPADE),
     new Card(Face.KING, Suite.SPADE),
     new Card(Face.JACK, Suite.SPADE),
     new Card(Face.TEN, Suite.SPADE),
     new Card(Face.QUEEN, Suite.SPADE)
-  ]);
-    
-  Hand hand = fiveHand.evaluate();
-  
-  print(hand); //Hand.ROYAL_FLUSH
+]);
+
+Hand hand = fiveHand.evaluate();
+
+print(hand); //Hand.ROYAL_FLUSH
 ```
 
 ## Tests
